@@ -1,8 +1,6 @@
-# invalidate-assets-list-webpack-plugin [![Travis CI][travis-image]][travis-url]
+# invalidate-assets-list-webpack-plugin [![Build Status](https://travis-ci.org/zyml/invalidate-assets-list-webpack-plugin.svg?branch=master)](https://travis-ci.org/zyml/invalidate-assets-list-webpack-plugin)
 
-> Generates a list of asset paths to a JSON file for cache invalidation.
-
-[![Version][npm-image]][npm-url]
+> Generate (selectively) a list of asset paths to a JSON file for cache invalidation.
 
 ## Installation
 
