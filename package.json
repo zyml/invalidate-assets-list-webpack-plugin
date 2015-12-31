@@ -9,7 +9,12 @@
     "url": "https://github.com/zyml/invalidate-assets-list-webpack-plugin"
   },
   "keywords": [
-    "webpack"
+    "webpack",
+    "plugin",
+    "asset",
+    "assets",
+    "cache",
+    "invalidate"
   ],
   "main": "index.js",
   "dependencies": {
