@@ -1,0 +1,29 @@
+{
+  "name": "invalidate-assets-list-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Generates a list of asset paths to a JSON file for cache invalidation.",
+  "license": "MIT",
+  "author": "Melvin Lee <zy@zy.sg> (http://zy.sg)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyml/invalidate-assets-list-webpack-plugin"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "multimatch": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "del": "^2.2.0",
+    "istanbul": "^0.4.1",
+    "jshint": "^2.9.1-rc2",
+    "mocha": "^2.3.4",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "lint": "jshint index.js test/*.js lib/*.js",
+    "test": "npm run lint && mocha test",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  }
+}
