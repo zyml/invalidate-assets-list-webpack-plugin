@@ -1,4 +1,9 @@
-# invalidate-assets-list-webpack-plugin [![Build Status](https://travis-ci.org/zyml/invalidate-assets-list-webpack-plugin.svg?branch=master)](https://travis-ci.org/zyml/invalidate-assets-list-webpack-plugin)
+# invalidate-assets-list-webpack-plugin
+
+[![npm version](https://badge.fury.io/js/invalidate-assets-list-webpack-plugin.svg)](https://badge.fury.io/js/invalidate-assets-list-webpack-plugin)
+[![Build Status](https://travis-ci.org/zyml/invalidate-assets-list-webpack-plugin.svg?branch=master)](https://travis-ci.org/zyml/invalidate-assets-list-webpack-plugin)
+[![Test Coverage](https://codeclimate.com/github/zyml/invalidate-assets-list-webpack-plugin/badges/coverage.svg)](https://codeclimate.com/github/zyml/invalidate-assets-list-webpack-plugin/coverage)
+[![Dependency Status](https://gemnasium.com/zyml/invalidate-assets-list-webpack-plugin.svg)](https://gemnasium.com/zyml/invalidate-assets-list-webpack-plugin)
 
 > Generate (selectively) a list of asset paths to a JSON file for cache invalidation.
 
