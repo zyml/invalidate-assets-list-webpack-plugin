@@ -68,7 +68,7 @@ InvalidateAssetsListPlugin.prototype.apply = function(compiler) {
 InvalidateAssetsListPlugin.prototype.exportList = function(stats) {
   var list = parseAssets(stats);
 
-  var publicPath = this.options.publicPath || stats.publicPath;
+  var publicPath = this.options.publicPath || '/';
 
   return JSON.stringify(compose(
     appendHash(stats.hash, this.options.hash),
