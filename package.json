@@ -1,6 +1,6 @@
 {
   "name": "invalidate-assets-list-webpack-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "webpack plugin that generates a list of asset paths to a JSON file for cache invalidation.",
   "license": "MIT",
   "author": "Melvin Lee <zy@zy.sg> (http://zy.sg)",
