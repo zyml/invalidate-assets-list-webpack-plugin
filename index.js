@@ -1,8 +1,8 @@
-var compose = require('lodash/function/compose');
+var compose = require('lodash/flowRight');
 var fs = require('fs');
-var merge = require('lodash/object/merge');
+var map = require('lodash/map');
+var merge = require('lodash/merge');
 var path = require('path');
-var pluck = require('lodash/collection/pluck');
 
 var appendHash = require('./lib/appendHash');
 var appendPublicPath = require('./lib/appendPublicPath');
@@ -31,7 +31,7 @@ function InvalidateAssetsListPlugin(options) {
  * @return {Array}
  */
 function parseAssets(stats) {
-  return pluck(stats.assets, ['name']);
+  return map(stats.assets, 'name');
 }
 
 InvalidateAssetsListPlugin.prototype.apply = function(compiler) {
